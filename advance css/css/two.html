@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         
+    /* Styles for the outer div */
+    .outer-div {
+      width: 700px;
+      height: 700px;
+      background-color: lightgray;
+      position: relative; 
+     } 
+
+    /* Styles for the inner boxes */
+    .inner-box {
+       width: 80px;
+       height: 80px; 
+      border: 1px solid black; 
+      display: flex; 
+       align-items: center;
+      justify-content: center;
+    } 
+
+    .red-box {
+      background-color: red;
+    }
+
+    .yellow-box {
+      background-color: yellow;
+    }
+
+    .blue-box {
+      background-color: blue;
+    }
+
+    .green-box {
+      background-color: green;
+    }
+
+    .rose-box {
+      background-color: rosybrown;
+    }
+    /* .static-box {
+      position: static; 
+
+
+      
+    } */
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="outer-div">
+        <div class="inner-box red-box static-box">Red</div>
+        <div class="inner-box yellow-box relative-box">Yellow</div>
+        <div class="inner-box blue-box fixed-box">Blue</div>
+        <div class="inner-box green-box absolute-box">Green</div>
+        <div class="inner-box rose-box sticky-box">Rose</div>
+      </div>
+    
+    
+</body>
+</html>
